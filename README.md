@@ -1,7 +1,6 @@
 # audiodb-cgo
 
-[![](https://img.shields.io/github/license/thechampagne/audiodb-cgo)](https://github.com/thechampagne/audiodb-cgo/blob/main/LICENSE) [![](https://img.shields.io/github/license/thechampagne/audiodb-cgo)](https://github.com/thechampagne/audiodb-cgo/blob/main/LICENSE)
-
+[![](https://img.shields.io/github/v/tag/thechampagne/audiodb-cgo?label=version)](https://github.com/thechampagne/audiodb-cgo/releases/latest) [![](https://img.shields.io/github/license/thechampagne/audiodb-cgo)](https://github.com/thechampagne/audiodb-cgo/blob/main/LICENSE)
 ### Installation & Setup
 
 #### 1. Clone the repository
