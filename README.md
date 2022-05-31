@@ -368,7 +368,7 @@ printf("%s\n", ((audiodb_music_video**)res->buffer)[i]->str_track);
 printf("%s\n", ((audiodb_music_video**)res->buffer)[i]->str_trackthumb);
   }
 
-  audiodb_music_video_clean((music_video**)res->buffer, res->buffer_length);
+  audiodb_music_video_clean((audiodb_music_video**)res->buffer, res->buffer_length);
   return 0;
 }
 ```
