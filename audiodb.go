@@ -902,7 +902,7 @@ func audiodb_tracks_clean(self **C.audiodb_track, length C.int) {
 //export audiodb_search_music_videos_by_artist_id
 func audiodb_search_music_videos_by_artist_id(i C.int) *C.audiodb {
   self := (*C.audiodb) (C.malloc(C.size_t(unsafe.Sizeof(C.audiodb{}))))
-  res, err := audiodb.SearchTracksByAlbumId(int64(i))
+  res, err := audiodb.SearchMusicVideosByArtistId(int64(i))
   if err != nil {
     self.buffer = nil
     self.error = C.CString(err.Error())
